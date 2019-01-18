@@ -1483,7 +1483,7 @@ figure a:hover {
     font-weight: 700;
     color: #ffe697;
     position: relative;
-    height: 44px;
+    height: 200px;
 }
 div.animation {
     position: absolute;
@@ -1559,12 +1559,12 @@ div.animation {
 }
 /*PROJECTS*/
 
-.p-projects {
+/* .p-projects {
     position: absolute;
     width: 100%;
     height: 100%;
     padding-left: 100px;
-}
+} */
 .p-projects > div {
     position: relative;
     height: 100%;

@@ -7,11 +7,21 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-
+.ng-scope{
+    float: right;
+    width: calc(100% -33px);
+    width: calc(100% -33px);
+    width: -moz-calc(100% - 33px);
+    width: -webkit-calc(100% - 33px);
+}
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+div.test-menu{
+  position: absolute;
+  z-index: 10000000;
 }
 .float-right{
   float: right;
@@ -59,9 +69,9 @@ ul {
   -webkit-flex-flow: column wrap;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  height: 85vh;
+  /* height: 10vh;
   -webkit-transform: translate(0, -100%);
-          transform: translate(0, -100%);
+          transform: translate(0, -100%); */
   -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
