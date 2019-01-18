@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Wex &#8211; Minimalist Portfolio Theme | Just another HTML Template with Twitter Bootstrap 3.3.2
+Version: 1.0.0
+Author: FoxSash
+Website: http://www.foxsash.com/
+Contact: foxsash82@gmail.com
+Follow: https://twitter.com/FoxSash_RU
+Purchase: 
+http://themeforest.net/user/FoxSash/portfolio?ref=FoxSash
+http://codecanyon.net/user/FoxSash/portfolio?ref=FoxSash
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>A4 Papper | Wex &#8211; Minimalist Portfolio Theme | Just another HTML Template</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='assets/bootstrap/bootstrap.min.css' type='text/css' media='all'/>
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto%3A100%7CInconsolata%3A400&#038;ver=1436865490' type='text/css' media='all' />
+<link rel='stylesheet' href='assets/css/main_style.css' type='text/css' media='all'/>
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+</head>
+<body class="single single-portfolio">
+<div id="preloader">
+	<div id="status">
+	</div>
+</div>
+<!-- Content Area -->
+<div class="oi_container_holder">
+	<div class="oi_head_holder">
+		<div class="container">
+			<div class="oi_logo_holder oi_page_logo_holder">
+				<div class="oi_container">
+					<a href="index.html" class="oi_logo"><img src="assets/images/logo-white.png" alt="Wex &#8211; Minimalist Portfolio Theme"></a>
+					<i class="fa fa-bars fa-2x visible-xs oi_xs_menu"></i>
+					<div class="menu-header-container">
+                    	<nav>
+						<ul id="menu-header" class="oi_header_menu_fixed">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">Features</a>
+							<ul class="sub-menu">
+								<li><a href="about.html">About Company</a></li>
+								<li><a href="hire-us.html">Contact with us</a></li>
+								<li><a href="rows-columns.html">Rows &#038; Columns</a></li>
+								<li><a href="headings.html">Headings</a></li>
+								<li><a href="buttons.html">Buttons</a></li>
+								<li><a href="highlights.html">Highlights</a></li>
+								<li><a href="info-lists.html">Info Lists</a></li>
+								<li><a href="404.html">404 page</a></li>
+								<li><a href="search.html?s=hello">Search Results</a></li>
+							</ul>
+							</li>
+							<li class="current-menu-parent"><a href="#">Showcase</a>
+							<ul class="sub-menu">
+								<li><a href="random-thumbs.html">Random Thumbs</a></li>
+								<li><a href="random-thumbs-spaces.html">Random Thumbs + Spaces</a></li>
+								<li><a href="half-thumbnails.html">Half Thumbnails</a></li>
+								<li><a href="half-thumbnails-spaces.html">Half Thumbnails + Spaces</a></li>
+								<li><a href="square-thumbs.html">Square Thumbs</a></li>
+								<li><a href="square-thumbs-spaces.html">Square Thumbs + Spaces</a></li>
+								<li><a href="4-square-thumbs.html">4 Square Thumbs</a></li>
+								<li><a href="4-square-thumbs-spaces.html">4 Square Thumbs + Spaces</a></li>
+								<li class="no_hover"><a href="#">&#8212;</a></li>
+								<li><a href="separate-category.html">Separate category</a></li>
+								<li class="no_hover"><a href="#">&#8212;</a></li>
+								<li class="current-menu-item"><a href="a4-papper.html">Project : Simple</a></li>
+								<li><a href="prequell-illustration.html">Project : Colorful</a></li>
+								<li><a href="all-black-but-gold.html">Project : Black Header</a></li>
+								<li><a href="creations-namale.html">Project : Example 3</a></li>
+								<li><a href="balmori-roofbar.html">Project : Example 5</a></li>
+								<li><a href="briscoola.html">Project : Example 6</a></li>
+								<li><a href="kurppa-hosk.html">Project : Example 7</a></li>
+							</ul>
+							</li>
+							<li><a href="news-events.html">News &#038; Events</a>
+							<ul class="sub-menu">
+								<li><a href="viverra-tempor-ultrices.html">Image Post</a></li>
+								<li><a href="video-post-youtube.html">Video: YouTube</a></li>
+								<li><a href="video-post-vimeo.html">Video: Vimeo</a></li>
+							</ul>
+							</li>
+						</ul>
+                        </nav>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="oi_legend_holder oi_page_legend">
+				<h1 class="oi_legend">A4 Papper</h1>
+				<h4 class="oi_sub_legend mb0">New free PSD mockup, create your own presentation!</h4>
+			</div>
+		</div>
+		<div class="oi_head_bg oi_bw" style="background:url('http://placehold.it/1920x1050') 50% 0;"></div>
+	</div>
+	<div class="clearfix">
+	</div>
+	<div class="container">
+      <div class="this_page oi_page_holder">
+            <div class="oi_sinle_portfolio_holder">
+                <div class="oi_portfolio_page_holder">
+                    <div class="row row-fluid mb0">
+                        <div class="col-sm-12">
+                  
+                            <embed src="assets/images/animationnew.mov" width="600" height="400" scale="aspect" controller="true">
+                            
+                        </div>
+                    </div>
+                    <div class="row row-fluid">
+                        <div class="col-sm-12">
+                            <div class="bg_fff p120p40 text-center">
+                                <h1 class="oi_legend">A4 Papper</h1>
+                                <h6>A logo for a Moscow mobile saler.</h6>
+                                <p>&nbsp;
+                                    
+                                </p>
+                                <p>
+                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oi_port_nav">
+                        <a href="random-thumbs-spaces.html"><i class="fa fa-th-large fa-fw"></i></a>
+                        <a href="prequell-illustration.html" rel="prev"><i class="fa fa-long-arrow-right fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+<div class="oi_footer_holder">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<a href="index.html" class="oi_logo_footer"><img src="assets/images/logo-footer.png" alt="Wex &#8211; Minimalist Portfolio Theme"></a>
+				<div class="oi_soc_icons">
+					<a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter fa-fw"></i></a><a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook fa-fw"></i></a><a href="#" title="Google+" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a><a href="#" title="Pinterest" target="_blank"><i class="fa fa-pinterest-p fa-fw"></i></a><a href="#" title="LinkedIn" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a><a href="#" title="Dribbble" target="_blank"><i class="fa fa-dribbble fa-fw"></i></a><a href="#" title="YouTube" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+				</div>
+				<div>
+					 Copyright © 2015. Design by <a href="http://themeforest.net/user/OrangeIdea/portfolio?ref=FoxSash" target="_blank">OrangeIdea</a>. Coding by <a href="http://themeforest.net/user/FoxSash/portfolio?ref=FoxSash" target="_blank">FoxSash</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-x2-12 text-right">
+				<a class="oi_go_to_top" href="#top">
+				<svg version="1.1"  fill="#000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="20px" viewbox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+				<polygon opacity="0" points="19.9,21 0,1.3 1.4,0 19.9,18.3 38.6,0 40,1.3 "><animate attributename="opacity" attributetype="XML" dur="3s" from="1" to="0" repeatcount="indefinite" begin="0"/></polygon>
+				<polygon opacity="0" points="19.9,30.9 0,11.2 1.4,9.9 19.9,28.2 38.6,9.8 40,11.2 "><animate attributename="opacity" attributetype="XML" dur="3s" from="1" to="0" repeatcount="indefinite" begin="1s"/></polygon>
+				<polygon opacity="0" points="19.9,40 0,20.3 1.4,19 19.9,37.3 38.6,19 40,20.3 "><animate attributename="opacity" attributetype="XML" dur="3s" from="1" to="0" repeatcount="indefinite" begin="2s"/></polygon>
+				</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</div> 
+<!-- footer -->
+<script type='text/javascript' src='assets/js/jquery-1.11.3.min.js'></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type='text/javascript' src='assets/js/jquery.waitforimages.js'></script>
+<script type='text/javascript' src='assets/js/isotope.pkgd.min.js'></script>
+<script type='text/javascript' src='assets/js/imagesloaded.js'></script>
+<script type='text/javascript' src='assets/bootstrap/bootstrap.min.js'></script>
+<script type='text/javascript' src='assets/js/lightbox.min.js'></script>
+<script type='text/javascript' src='assets/FlexSlider/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='assets/js/jflickrfeed.min.js'></script>
+<script type='text/javascript' src='assets/js/gmap3.min.js'></script>
+<script type='text/javascript' src='assets/js/background-check.min.js'></script>
+<script type='text/javascript' src='assets/js/custom.js'></script>
+<!-- footer -->
+</body>
+</html>
