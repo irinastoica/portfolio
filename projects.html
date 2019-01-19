@@ -1,19 +1,20 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<body ng-app="myApp">
 <div id="p-projects" class="page-container p-projects ">
   <div id="projects-container" class="projects-container clearfix tab-projects">
     <div class="row" style="height: 50%;">
       <!--marketing-->
       <figure class="col-sm-6 col-md-6 col-lg-4">
-        <a href="marketing.html">
+        <a href="#!marketing"">
           <img src="assets/images/cm.jpg" alt="">
           <figcaption>
             <div class="overlay">
               <div>
-
                 <h2>Advertisement</h2>
                 <h3>Marketing</h3>
                 <span>View Project</span>
               </div>
-
             </div>
           </figcaption>
         </a>
@@ -53,9 +54,7 @@
           <img src="assets/images/c50.jpg" alt="">
           <figcaption>
             <div class="overlay">
-
               <div>
-
                 <h2>Brand Identity</h2>
                 <h3>Roadkrome</h3>
                 <span>View Project</span>
@@ -66,7 +65,6 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>Roadkrome</h3>
         <h2>Brand Identity</h2>
       </div>
@@ -76,7 +74,6 @@
       <figure class="projects col-sm-6 col-md-6 col-lg-4">
         <a href="maxime.html">
           <img src="assets/images/cmax.jpg" alt="">
-
           <figcaption>
             <div class="overlay">
               <div>
@@ -89,7 +86,6 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>Web Design</h3>
         <h2>UX / Ui design</h2>
       </div>
@@ -101,9 +97,7 @@
           <img src="assets/images/A4-Brochure2.jpg" alt="">
           <figcaption>
             <div class="overlay">
-
               <div>
-
                 <h2>Print and marketing</h2>
                 <h3>Montréal Complètement Cirque</h3>
                 <span>View Project</span>
@@ -119,9 +113,7 @@
       </div>
       <div class="clearfix hidden"></div>
 
-
       <!--RENO-->
-
       <figure class="col-sm-6 col-md-6 col-lg-4">
         <a href="renodepot.html">
           <img src="assets/images/creno.jpg" alt="">
@@ -138,13 +130,10 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>Réno Dépôt</h3>
         <h2>logo and website concept</h2>
       </div>
       <div class="clearfix hidden"></div>
-
-
 
       <!--LYFTNOTE-->
       <figure class="col-sm-6 col-md-6 col-lg-4">
@@ -164,22 +153,17 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>Lyftnote</h3>
         <h2>website concept and print</h2>
       </div>
       <div class="clearfix hidden"></div>
-
-
       <!--calendar-->
       <figure class="col-sm-6 col-md-6 col-lg-4">
         <a href="calendar.html">
           <img src="assets/images/c11.jpg" alt="">
           <figcaption>
             <div class="overlay">
-
               <div>
-
                 <h2>Illustration</h2>
                 <h3>The white lady!</h3>
                 <span>View Project</span>
@@ -189,16 +173,10 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>The white lady</h3>
         <h2>Illustration</h2>
       </div>
       <div class="clearfix hidden"></div>
-
-
-
-
-
       <!--BUFFALO-->
       <figure class="projects col-sm-6 col-md-6 col-lg-4">
         <a href="packaging.html">
@@ -217,19 +195,22 @@
         </a>
       </figure>
       <div class="col-sm-6 figcaption-mobile hidden">
-
         <h3>Barilla</h3>
         <h2>Packaging</h2>
       </div>
       <div class="clearfix hidden"></div>
     </div>
-
-
-
-
-
   </div>
-
-
 </div>
-</div>
+</body>
+<!-- angular scripts -->
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/marketing", {
+        templateUrl : "marketing.html"
+    })
+
+});
+</script>
