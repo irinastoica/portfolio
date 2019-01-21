@@ -5,10 +5,10 @@ var l = $('.scrolly');
 var panel = $('.panel');
 var vh = $(window).height();
 
-// var openMenu = function() {
-//   burger.classList.toggle('burger--active');
-//   menu.classList.toggle('nav__list--active');
-// };
+var openMenu = function() {
+  burger.classList.toggle('burger--active');
+  menu.classList.toggle('nav__list--active');
+};
 
 // reveal content of first panel by default
 panel.eq(0).find('.panel__content').addClass('panel__content--active');
@@ -16,7 +16,7 @@ panel.eq(0).find('.panel__content').addClass('panel__content--active');
 var scrollFx = function() {
   var ds = doc.scrollTop();
   var of = vh / 4;
-
+  
 
   // if the panel is in the viewport, reveal the content, if not, hide it.
   for (var i = 0; i < panel.length; i++) {
@@ -71,9 +71,9 @@ doc.on('ready', init);
 
 
   $(window).load(function() {
-
+    
     // will fade out the whole DIV that covers the website.
-    $("#preloader").slideUp("slow");
+    $("#preloader").slideUp("slow"); 
 
-
+  
   });
