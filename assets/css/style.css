@@ -34,7 +34,8 @@ div.test-menu{
 }
 
 .services-main{
-  background-image: url(../images/services.jpg);
+  background-image: url(../images/background-services.jpg);
+  height: 500px;
 }
 
 .float-right .branding{
@@ -48,7 +49,8 @@ div.test-menu{
   font-size: 45px;
   font-family: 'Leckerli One', cursive;
   text-align: center;
-  color: #323567;
+  color: white;
+  margin:0
 }
 .nav {
   position: fixed;
