@@ -23,11 +23,6 @@ ul {
   padding: 0;
 }
 
-.services-main{
-  background-image: url(../images/background-services.jpg);
-  height: 500px;
-}
-
 .float-right .branding{
   background-color: #f5f581;
 }
@@ -39,8 +34,7 @@ ul {
   font-size: 45px;
   font-family: 'Leckerli One', cursive;
   text-align: center;
-  color: white;
-  margin:0
+  color: #323567;
 }
 .nav {
   position: fixed;
