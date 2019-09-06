@@ -3,7 +3,9 @@
 }
 
 body {
+  font-family: 'Montserrat';
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -43,8 +45,7 @@ ul {
   width: 100px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-    background-color: #f8f8f8;
-    /*border-right: 1px solid #de0f66;*/
+          background-color: #323567;
 }
 .nav__list {
   display: -webkit-box;
@@ -91,6 +92,7 @@ ul {
   left: 0;
   text-decoration: none;
   font-size: 24px;
+  background: #323666;
   -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -138,19 +140,19 @@ nav.buffalo{
       -ms-flex-align: center;
           align-items: center;
   z-index: 2;
-  background: #f8f8f8;
+  background: #323666;
   cursor: pointer;
   -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .burger:hover {
-  background: #d3d4e8;
+  background: #272b2e;
 }
 .burger__patty {
   position: relative;
   height: 2px;
   width: 40px;
-  background: black;
+  background: white;
 }
 .burger__patty:before {
   content: "";
@@ -159,7 +161,7 @@ nav.buffalo{
   left: 0;
   height: 2px;
   width: 100%;
-  background: black;
+  background: white;
 }
 .burger__patty:after {
   content: "";
@@ -168,7 +170,7 @@ nav.buffalo{
   left: 0;
   height: 2px;
   width: 100%;
-  background: black;
+  background: white;
 }
 .burger__patty, .burger__patty:before, .burger__patty:after {
   will-change: transform;
@@ -273,11 +275,10 @@ nav.buffalo{
   font-size: 130%;
   display: block;
   margin-top: 15px;
-    color: black;
 }
 
 .nav__item a i:hover{
-  color:#5559a2;
+  color:#f9eb8e;
 
 }
 
